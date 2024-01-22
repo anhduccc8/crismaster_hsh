@@ -44,8 +44,8 @@ function lvc_gioi_thieu_func($atts,$content = null){
         $image_link = wp_get_attachment_image_src($image, '');
     }
     ?>
-    <section class="shs-section-widget shs-section-about">
-        <div class="container-fluid padding-0">
+    <section class="section shs-section-widget shs-section-about" data-anchor="introduce">
+        <div class="container-default">
             <div class="row">
                 <div class="col-xs-12 col-lg-6 shs-item-about">
                     <div class="item-about-content">

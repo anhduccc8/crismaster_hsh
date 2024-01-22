@@ -24,7 +24,7 @@ $footer_email = $theme_option['footer_email'];
                     <section class="section fp-section fp-table shs-header-custom bg-img-section" data-anchor="hsh-thang-long" id="bannerHome hsh-thang-long">
                         <div class="shs-slide container-fluidd scale-m1345 scale-m1201">
                             <div class="slider-content">
-                                <video id="myVideo" class="video-display" autoplay muted loop playsinline src="https://hshgroup.co/video/HSH.mp4"></video>
+                                <video id="myVideo" class="video-display" autoplay muted loop playsinline src="https://player.vimeo.com/progressive_redirect/playback/905042642/rendition/1080p/file.mp4?loc=external&signature=e1d052bd5f93a4b0ad3cff13d9c01cc7a9c92761c27a85e528170552f5193240"></video>
                                 <script>
                                     document.addEventListener('DOMContentLoaded', function () {
                                         var video = document.getElementById('myVideo');

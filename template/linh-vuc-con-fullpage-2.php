@@ -22,7 +22,7 @@ $footer_email = $theme_option['footer_email'];
     while ( have_posts() ) : the_post(); ?>
         <main class="site-content">
             <div class="container-fluiddd">
-                <div class="row-custom" id="fullpage">
+                <div class="row-custom" id="fullpage2">
                     <section class="section" data-anchor="banner">
                         <header>
                             <div id="site-header-wrap" class="header-layout">
@@ -121,31 +121,12 @@ $footer_email = $theme_option['footer_email'];
                                 </div>
                             </div>
                         </div>
-                        <div class="container-default height-100vh-160px min-height-450-mb">
-                            <div class="shs-page-title bg-img-section height-30vh" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/bgr-pagetitle-02.jpg')">
-                                <div class="shs-slide">
-                                    <div class="slider-content slide-page-new" >
-                                        <div class="shs-slide content-middle">
-                                            <div class="shs-heading-meta">
-                                                <h3 class="shs-heading t-shadow color-white"><?= esc_html__('NHẬP KHẨU GỖ','crismaster') ?></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shs-section-widget shs-section-about">
-                                <div class="container-fluid padding-0">
-                                    <div class="row">
-                                        <div class="col-xs-12 col-lg-6 shs-item-about">
-                                            <div class="item-about-content">
-                                                <h4 class="item-about-title">NHẬP KHẨU GỖ</h4>
-                                                <div class="item-about-description">
-                                                    Một số loại gỗ nhập khẩu phổ biến có thể kể đến như gỗ lim, gỗ hương, gỗ gõ, gỗ cẩm, gỗ gụ… (từ các nước thuộc tiểu vùng sông Mê Kông và châu Phi); hay gỗ sồi, gỗ thông, gỗ dương, gỗ óc chó... (từ Mỹ và các nước châu u).Đặc điểm của các loại gỗ này là có giá thành tương đối cao, tích chất vật lý chịu nhiệt, chịu lực tốt, chống mối mọt và có độ bền rất lâu theo thời gian.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-12 col-lg-6 shs-item-about shs-item-about-cus">
-                                            <img class="shs-item-about-img" alt="" src="<?= get_template_directory_uri() ?>/assets/images/img-column-0111.jpg" >
+                        <div class="shs-page-title bg-img-section height-100vh-160px min-height-450-mb" style="background-image: url('<?= get_template_directory_uri() ?>/assets/images/bgr-pagetitle-02.jpg')">
+                            <div class="shs-slide">
+                                <div class="slider-content slide-page-new" >
+                                    <div class="shs-slide content-middle">
+                                        <div class="shs-heading-meta">
+                                            <h3 class="shs-heading t-shadow color-white"><?= esc_html__('NHẬP KHẨU GỖ','crismaster') ?></h3>
                                         </div>
                                     </div>
                                 </div>

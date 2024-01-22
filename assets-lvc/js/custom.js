@@ -30,5 +30,12 @@ jQuery(document).ready(function($) {
             scrollOverflow: false,
         });
     }
+    if ($('#fullpage2').length > 0 && desktop_width > 1200){
+        var myFullpage2 = new fullpage('#fullpage2', {
+            anchors: ['banner','introduce', 'product','footer'],
+            navigation: false,
+            scrollOverflow: false,
+        });
+    }
 
 });
