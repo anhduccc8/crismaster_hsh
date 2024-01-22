@@ -16,6 +16,9 @@
 .mt-15px {
     margin-top: 15px;
 }
+.item-image-blog {
+    text-align: center;
+}
 @media (min-width: 1200px) {
 
     .hsh-search {
