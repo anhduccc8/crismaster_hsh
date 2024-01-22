@@ -22,6 +22,13 @@ jQuery(document).ready(function($) {
         });
         $('.owl-carousel.shs-nav-blog-releated-1 .owl-nav').removeClass('disabled');
     }
-
+    var desktop_width = $(window).width();
+    if ($('#fullpage').length > 0 && desktop_width > 1200){
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['banner', 'product','footer'],
+            navigation: false,
+            scrollOverflow: false,
+        });
+    }
 
 });

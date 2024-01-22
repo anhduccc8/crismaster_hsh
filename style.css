@@ -647,8 +647,34 @@ span.copy-right-2 {
     .height-100vh {
         height: 100vh;
     }
+    #fullpage5 .item-image-blog img {
+        max-height: 230px;
+    }
 }
 @media screen and (min-width: 1200px) and (max-width: 1589px){
+    #fullpage5 .item-blog-description {
+        font-size: 12px;
+
+    }
+    #fullpage5 .item-image-blog img {
+        max-height: 150px;
+    }
+    #fullpage5 .shs-heading-meta .shs-heading-cus {
+        font-size: 36px;
+    }
+    #fullpage5 .btn-main-cus {
+        height: 36px;
+        line-height: 30px;
+    }
+    #fullpage5 .item-blog-title a {
+        font-size: 18px;
+    }
+    #fullpage5 .item-blog-content {
+        padding: 6px 27px 6px;
+    }
+    #fullpage5 .shs-nav-number-bottom {
+        margin-top: 0;
+    }
     .footer-lienhe .shs-footer-main-3 .shs-link {
         font-size: 15px;
     }
@@ -938,6 +964,8 @@ span.copy-right-2 {
     .shs-column-01-cus a {
         font-size: 20px;
     }
+
+
 }
 @media (max-width: 1299px) {
     .shs-nav-number, #scroll-bullets {

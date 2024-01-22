@@ -533,7 +533,15 @@ ul li {
 /*.nav-image img {*/
 /*    max-width: 134px;*/
 /*}*/
-
+.fp-watermark {
+    display: none;
+}
+.item-image-blog img {
+    width: 90%;
+}
+.xuc-tien-tm .item-post-content-header img {
+    max-height: 300px;
+}
 @media (max-width: 991px) {
     .shs-blog-sidebar {
         margin-top: 60px;

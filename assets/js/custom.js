@@ -53,6 +53,17 @@ jQuery(document).ready(function($) {
             }
         });
     }
+    if ($('#fullpage5').length > 0 && desktop_width > 1200){
+        var myFullpage = new fullpage('#fullpage5', {
+            // menu: '#scroll-bullets',
+            anchors: ['banner', 'post','contact'],
+            navigation: false,
+            scrollOverflow: false,
+            afterLoad: function(origin, destination, direction) {
+                loadEle();
+            }
+        });
+    }
     if ($('.owl-carousel.linh-vuc-hoat-dong').length > 0 && desktop_width > 767){
         $('.owl-carousel.linh-vuc-hoat-dong').owlCarousel({
             loop: true,

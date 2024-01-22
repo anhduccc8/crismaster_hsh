@@ -225,6 +225,22 @@ if (!class_exists("Redux_Framework_sample_config")) {
                         ),
                 )
             );
+//            $this->sections[] = array(
+//                'title'      => esc_html__( 'Cài đặt Trang Con', 'crismaster' ),
+//                'id'         => 'header_setting',
+//                'icon' => 'el-icon-th-list',
+//                'desc' => __( 'Các bài post sẽ hiển thị ở đầu mỗi trang con', 'crismaster' ),
+//                'fields'     => array(
+//                    $fields =
+//                        array(
+//                            'id'       => 'lvc_ids_post',
+//                            'type'     => 'text',
+//                            'title'    => esc_html__( '3 ID cái bài post hiển thị đầu trang LVC - Xúc tiến thương mại', 'crismaster' ),
+//                            'subtitle' => esc_html__( '', 'crismaster' ),
+//                            'desc'     => esc_html__( 'Ngăn cách nhau bởi dấu ",", ID đứng đầu là bài hiển thị lớn', 'crismaster' ),
+//                        ),
+//                )
+//            );
             $this->sections[] = array(
                 'title'      => esc_html__( 'Cài đặt Banner', 'crismaster' ),
                 'id'         => 'header_setting',

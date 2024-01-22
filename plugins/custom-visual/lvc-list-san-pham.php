@@ -63,8 +63,8 @@ function lvc_sp_danh_muc_func($atts,$content = null){
     }
 
     ?>
-    <section class="shs-section-widget shs-section-blog overflow-hidden mt-40">
-        <div class="container-fluid padding-0">
+    <section class="section shs-section-widget shs-section-blog overflow-hidden mt-40 <?php if (!$is_search || $is_search == '0'){ echo 'pt-40px'; }?>" data-anchor="product">
+        <div class="container-default container-default-cus  height-100vh-80px  <?php if ($is_search && $is_search == '1'){ echo 'height-100vh-25px'; }else{ echo 'height-100vh-130px'; }?>">
             <?php if ($is_search && $is_search == '1'){ ?>
                 <div class="row">
                     <div class="col-12">
@@ -88,7 +88,7 @@ function lvc_sp_danh_muc_func($atts,$content = null){
                 <div class="col-xs-12 col-md-6 col-xl-3 shs-item-blog">
                     <div class="item-blog item">
                         <div class="item-image-blog">
-                            <img alt="img-blog-01" src="<?= esc_url($single_image[0]) ?>" style="width:100%">
+                            <img alt="img-blog-01" src="<?= esc_url($single_image[0]) ?>">
                         </div>
                         <div class="item-blog-content">
                             <h6 class="item-blog-title"><?php the_title() ?></h6>
@@ -98,7 +98,7 @@ function lvc_sp_danh_muc_func($atts,$content = null){
                         </div>
                     </div>
                 </div>
-                <?php if ($t%4 == 0){ ?>
+                <?php if ($t%4 == 0 && $t <8){ ?>
                 </div><div class="row shs-item-blog-inner">
                 <?php } ?>
             <?php
