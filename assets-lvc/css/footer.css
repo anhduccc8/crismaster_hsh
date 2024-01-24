@@ -85,15 +85,13 @@
 	font-size: 28px;
 	text-transform: uppercase;
     font-weight: 700;
-    font-family: roboto;
     margin-bottom: 20px;
 }
 
-.footer-bottom-content, a {
+.footer-bottom-content {
 	font-size: 20px;
 	line-height: 23px;
 	color: rgba(79, 79, 79, 1);
-	font-family: roboto;
 }
 
 .shs-footer-bottom {
