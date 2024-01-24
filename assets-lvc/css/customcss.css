@@ -43,7 +43,9 @@
     margin-bottom: 0;
 }
 @media (min-width: 1200px) {
-
+    .slide-page-new .bgr-img {
+        height: 100vh;
+    }
     .slider-content .shs-slide.content-middle {
         top: 80px;
         align-items: start;
@@ -182,6 +184,14 @@
 @media (max-width: 1199px) {
     .min-height-450-mb {
         min-height: 450px;
+    }
+    h3.shs-heading {
+        font-size: 21px;
+        padding-left: 0 !important;
+    }
+    .slider-content .shs-slide.content-middle {
+        top: -38px;
+        left: 40px;
     }
 }
 @media (max-width: 767px) {

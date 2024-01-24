@@ -26,7 +26,7 @@ $footer_email = $theme_option['footer_email'];
                     <section class="section shs-header-custom" data-anchor="banner">
                         <div class="shs-slide container-fluidd">
                             <div class="slider-content slide-page-new slide-single-blog">
-                                    <img class="bgr-img" src="<?= get_template_directory_uri() ?>/assets/images/bgr-pagetitle-01.jpg" style="width:100%;height: 100vh">
+                                    <img class="bgr-img" src="<?= get_template_directory_uri() ?>/assets/images/bgr-pagetitle-01.jpg" style="width:100%;">
                                 <div class="shs-slide content-middle">
                                     <div class="shs-heading-meta style-02">
                                         <img class="img-slide-new none-lg" alt="img-blog-02" src="<?= get_template_directory_uri() ?>/assets/images/img-slide-news.png">
