@@ -67,7 +67,7 @@ function lvc_post_sidebar_func($atts,$content = null){
                                 </div>
                             </div>
                         </div>
-                        <?php if (!empty($category_ids)){  ?>
+                        <?php if (!empty($category_ids) && false){  ?>
                             <div class="hsh-blog-releated">
                                 <h6 class="hsh-blog-releated-title"><?= esc_html__('Tin Liên Quan','crismaster') ?></h6>
                                 <div class="shs-nav-blog-releated row" data-nav="true">
