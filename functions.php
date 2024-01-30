@@ -72,6 +72,7 @@ function crismaster_theme_scripts_styles(){
         wp_enqueue_script("bootstrap-js", "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js",array(),true,false);
         wp_enqueue_script("map-js", "https://maps.googleapis.com/maps/api/js?key=AIzaSyAlZDuxldYtZzVxBMRnGJrwAcLBEGB2v8s",array(),true,false);
         wp_enqueue_script("owl-carousel-js", get_template_directory_uri()."/assets/js/owl.carousel.js",array(),true,false);
+        wp_enqueue_script("iconify-js", "https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js",array(),true,false);
         wp_enqueue_script("3-js", get_template_directory_uri()."/assets/js/main.js",array(),true,false);
         wp_localize_script('3-js', 'themeData', array(
             'direc_url' => get_template_directory_uri().'/assets/'

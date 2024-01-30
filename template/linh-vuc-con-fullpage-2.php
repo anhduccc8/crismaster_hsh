@@ -36,13 +36,15 @@ $footer_email = $theme_option['footer_email'];
                         </div>
                     </section>
                     <?php  the_content(); ?>
-                    <?php get_footer('lvc');?>
+                    <?php
+                    echo get_template_part('template-parts/footer-cus');
+                    ?>
                 </div>
             </div>
         </main>
     <?php
     endwhile;
 endif;
-
+get_footer();
 ?>
 
