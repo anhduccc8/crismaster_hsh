@@ -105,7 +105,7 @@ function linh_vuc_hoat_dong_func($atts,$content = null){
                     </div>
                     <h4 class="item-activiti-title"><?= htmlspecialchars_decode($dca['stitle']) ?></h4>
                 </div>
-                <div class="item-activiti-hover none-sm none-lg" style="background-image: url('<?= esc_url($dca['simage3'][0]) ?>');">
+                <div class="item-activiti-hover none-sm none-lg" style="background-image: url('<?= esc_url($dca['simage3'][0]) ?>'); background-position: center;">
                     <h4 class="item-activiti-title-hover text-uppercase"><?= htmlspecialchars_decode($dca['stitle']) ?></h4>
                 </div>
             </div>
