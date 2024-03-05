@@ -19,7 +19,7 @@ $mobile = wp_is_mobile();
 <body <?php body_class('body-main'); ?> >
 <header>
     <div class="hdContainer">
-        <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+        <a class="logo logo-cus-1" href="<?php echo esc_url( home_url( '/' ) ); ?>">
             <?php if (isset($header_logo) && $header_logo != '') { ?>
                 <img src="<?php  echo esc_url($header_logo) ?>" alt="">
             <?php }else{ ?>
@@ -27,7 +27,7 @@ $mobile = wp_is_mobile();
             <?php } ?>
             <span>HSH GROUP</span>
         </a>
-        <div class="hamburger-menu">
+        <div class="hamburger-menu hamburger-menu-cus">
             <div class="bar"></div>
         </div>
         <?php if ($header_language){

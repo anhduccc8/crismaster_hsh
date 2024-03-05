@@ -650,6 +650,18 @@ span.copy-right-2 {
     #fullpage5 .item-image-blog img {
         max-height: 230px;
     }
+
+    .hamburger-menu-cus {
+        top: 10% !important;
+        left: 50% !important;
+    }
+    .logo-cus-1 {
+        top: 50%;
+        left: 14%;
+        position: absolute;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
 }
 @media screen and (min-width: 1200px) and (max-width: 1589px){
     #fullpage5 .item-blog-description {
